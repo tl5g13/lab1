@@ -102,16 +102,7 @@ function numberWithCommas(number) {
 // I don't want people being able to save pictures of our hot rod stock
 // If they want to see our cars they have to buy them first
 function disableRightClick() {
-	document.onmousedown=disableclick;
-	status="Right Click Disabled";
-	Function disableclick(event)
-	{
-		if(event.button==2)
-    {
-		alert(status);
-		return false;    
-    }
-}
+	
 }
 
 
